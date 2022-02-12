@@ -6,10 +6,10 @@ part 'cats_state.dart';
 
 class CatsBloc extends Bloc<CatsEvent, CatsState> {
   CatsBloc() : super(const CatsLoadSuccess('https://cataas.com/cat/gif')) {
-    on<CatGifRefreshed>(_onJokeFetched);
+    on<CatGifRefreshed>(_onCatchFetched);
   }
 
-  Future<void> _onJokeFetched(
+  Future<void> _onCatchFetched(
     CatGifRefreshed event,
     Emitter<CatsState> emit,
   ) async {
