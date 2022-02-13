@@ -70,7 +70,7 @@ class CatsView extends StatelessWidget {
                 return const Center(child: CircularProgressIndicator());
               },
             ),
-            Align(child: const ButtonMeow()),
+            const Align(child: ButtonMeow()),
           ],
         ),
       ),
