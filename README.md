@@ -14,7 +14,7 @@ A flutter application that fetches cat's gifs whevener the "Meooww" button is pr
 - ✅  Organization
 - ✅  Dependecy Injection
 
-##App Preview
+### App Preview
 
 
 ![2022-02-13_13h47_12](https://user-images.githubusercontent.com/37377399/153772284-0a433c70-0324-415c-9523-a05907817e93.png)
