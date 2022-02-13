@@ -15,7 +15,7 @@ class CatsBloc extends Bloc<CatsEvent, CatsState> {
   ) async {
     emit(CatsLoadInProgress());
 
-    await Future<void>.delayed(const Duration(seconds: 1));
+    await Future<void>.delayed(const Duration(seconds: 3));
 
     emit(const CatsLoadSuccess('https://cataas.com/cat/gif'));
   }

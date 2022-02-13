@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kitty/cats/bloc/cats_bloc.dart';
 import 'package:kitty/widgets/background_painter.dart';
 import 'package:kitty/widgets/button_meow.dart';
+import 'package:kitty/widgets/loader.dart';
 
 /// CatsPage
 class CatsPage extends StatelessWidget {
@@ -46,7 +47,6 @@ class CatsView extends StatelessWidget {
             ),
             BlocBuilder<CatsBloc, CatsState>(
               builder: (context, state) {
-                CatsInitial();
                 if (state is CatsLoadFailure) {
                   return const Text('Error ocurred while fetching the gif');
                 } else if (state is CatsLoadSuccess) {
@@ -67,7 +67,7 @@ class CatsView extends StatelessWidget {
                     ),
                   );
                 }
-                return const Center(child: CircularProgressIndicator());
+                return LoaderDisplay(screenSize: _screenSize);
               },
             ),
             const Align(child: ButtonMeow()),
