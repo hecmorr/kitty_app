@@ -1,16 +1,38 @@
-# kitty
+# kitty_app by Hector Morales
 
-A new Flutter project.
+### Built With
 
-## Getting Started
+* [Dart](https://dart.dev)
+* [Flutter](https://flutter.dev)
 
-This project is a starting point for a Flutter application.
+A flutter application that fetches cat's gifs whevener the "Meooww" button is pressed.
 
-A few resources to get you started if this is your first Flutter project:
+- ✅  BloC
+- ✅  Testing
+- ✅  Performance
+- ✅  Version control
+- ✅  Organization
+- ✅  Dependecy Injection
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+##App Preview
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![2022-02-13_13h47_12](https://user-images.githubusercontent.com/37377399/153772284-0a433c70-0324-415c-9523-a05907817e93.png)
+
+
+## To get started 
+```
+// To start run the following commands 
+
+git clone [repo_url]
+
+cd kitty_app
+
+flutter pub get
+
+flutter run 
+```
+
+
+
+```
