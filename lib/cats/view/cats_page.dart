@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kitty/cats/bloc/cats_bloc.dart';
-import 'package:kitty/widgets/background_painter.dart';
-import 'package:kitty/widgets/button_meow.dart';
-import 'package:kitty/widgets/loader.dart';
+import '../../widgets/background_painter.dart';
+import '../../widgets/button_meow.dart';
+import '../../widgets/loader.dart';
 
-/// CatsPage
 class CatsPage extends StatelessWidget {
-  /// CatsPage constructor
   const CatsPage({Key? key}) : super(key: key);
 
   @override
